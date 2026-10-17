@@ -1,4 +1,4 @@
-# Awesome World Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome World Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Links](https://github.com/rajasekharponakala/awesome-world-models/actions/workflows/links.yml/badge.svg) ![Lint](https://github.com/rajasekharponakala/awesome-world-models/actions/workflows/lint.yml/badge.svg)
 
 > A curated list of papers, code, datasets, benchmarks, and resources on **world models** — learned simulators of environments that enable prediction, planning, and decision-making in AI.
 
