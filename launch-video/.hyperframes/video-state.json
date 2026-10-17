@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "historyId": "f62a4e43-b5ab-47d7-97df-0faa419f8baa",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "hyperframes.json": {
+      "hash": "ecdec630f5d5f583539c68b7ace20dd79a3b4c3f7ad44234e7ed29559eb524fe",
+      "content": "/home/rajasekhar/.cache/hyperframes/history/f62a4e43-b5ab-47d7-97df-0faa419f8baa/blobs/ec/ecdec630f5d5f583539c68b7ace20dd79a3b4c3f7ad44234e7ed29559eb524fe"
+    },
+    "index.html": {
+      "hash": "6c5e189759222f7afc34e718d1cdb57fb6f279790faadf1f01563c1ae0f5427c",
+      "content": "/home/rajasekhar/.cache/hyperframes/history/f62a4e43-b5ab-47d7-97df-0faa419f8baa/blobs/6c/6c5e189759222f7afc34e718d1cdb57fb6f279790faadf1f01563c1ae0f5427c"
+    },
+    "package.json": {
+      "hash": "1f12b8ef446349c752d8f2dea1e897a38b65a74c29953f56aedad0368cc03d6a",
+      "content": "/home/rajasekhar/.cache/hyperframes/history/f62a4e43-b5ab-47d7-97df-0faa419f8baa/blobs/1f/1f12b8ef446349c752d8f2dea1e897a38b65a74c29953f56aedad0368cc03d6a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "1ae75cf8-14c1-4014-84ec-89188f56928c"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "1ae75cf8-14c1-4014-84ec-89188f56928c",
+        "scope": "project",
+        "report": "/tmp/opencode/awm/launch-video/.hyperframes/artifacts/checks/1ae75cf8-14c1-4014-84ec-89188f56928c.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792217018522,
+        "contentHash": "008e028179614ac0cdecbd82df78af9173d063afb20e34571dbb4bad8b12956a",
+        "revision": null,
+        "inputFingerprint": "43bca63a22f325002a8d4d3392994ab78c769b7c4a71fac5237efb8d68e1ceb3",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4266b085-994e-4eb0-9d0a-949a2fdbafd4",
+      "completedAt": 1792217085149,
+      "output": "/tmp/opencode/awm/brag.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "awesome-world-models-video",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx hyperframes preview",
+    "check": "npx hyperframes check",
+    "render": "npx hyperframes render -o ../brag.mp4"
+  }
+}
