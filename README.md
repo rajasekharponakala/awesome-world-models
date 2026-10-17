@@ -1,12 +1,10 @@
 # Awesome World Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Links](https://github.com/rajasekharponakala/awesome-world-models/actions/workflows/links.yml/badge.svg) ![Lint](https://github.com/rajasekharponakala/awesome-world-models/actions/workflows/lint.yml/badge.svg) ![Render](https://github.com/rajasekharponakala/awesome-world-models/actions/workflows/render-video.yml/badge.svg)
 
-## Launch video
+## See it in action
 
-<video src="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4" autoplay muted loop playsinline controls width="720" poster="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/preview.gif"></video>
+[![Launch video preview](preview.gif)](brag.mp4)
 
-[![Launch video preview](preview.gif)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
-
-[Watch full video (brag.mp4)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
+*The [awesome list](README.md): curated world models across video, 3D, driving, and robotics. [Watch the full video with sound](brag.mp4).*
 
 > A curated list of papers, code, datasets, benchmarks, and resources on **world models** — learned simulators of environments that enable prediction, planning, and decision-making in AI.
 
