@@ -6,46 +6,85 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #0b1020; }
-      #root { width: 100%; height: 100%; position: relative; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #f4f4f5; }
-      .scene { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; }
-      h1 { font-size: 120px; font-weight: 700; letter-spacing: -0.03em; }
-      h2 { font-size: 56px; font-weight: 500; color: #a5b4fc; }
-      .sub { font-size: 36px; color: #94a3b8; }
-      .pill { padding: 12px 28px; border: 1px solid #334155; border-radius: 999px; font-size: 28px; color: #cbd5e1; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #050816; }
+      #root { width: 100%; height: 100%; position: relative; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #f4f4f5; overflow: hidden; }
+      .bg { position: absolute; inset: 0; background: radial-gradient(1200px 700px at 20% 20%, #1e293b 0%, #050816 60%), radial-gradient(900px 600px at 80% 80%, #312e81 0%, transparent 70%); }
+      .orb { position: absolute; border-radius: 50%; filter: blur(40px); opacity: 0.5; }
+      .scene { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; padding: 80px; }
+      h1 { font-size: 112px; font-weight: 800; letter-spacing: -0.04em; background: linear-gradient(135deg, #e0e7ff, #818cf8); -webkit-background-clip: text; background-clip: text; color: transparent; }
+      h2 { font-size: 64px; font-weight: 700; letter-spacing: -0.02em; }
+      .sub { font-size: 34px; color: #94a3b8; }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; width: 1400px; }
+      .card { background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 24px; padding: 36px; backdrop-filter: blur(10px); display: flex; flex-direction: column; gap: 12px; }
+      .card .icon { font-size: 48px; }
+      .card .title { font-size: 30px; font-weight: 700; color: #e0e7ff; }
+      .card .desc { font-size: 20px; color: #94a3b8; }
+      .pill { padding: 14px 32px; border: 1px solid #4f46e5; border-radius: 999px; font-size: 26px; color: #c7d2fe; background: rgba(79, 70, 229, 0.15); }
+      .badge { font-size: 22px; color: #64748b; }
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="15" data-width="1920" data-height="1080">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="18" data-width="1920" data-height="1080">
+      <div class="bg"></div>
+      <div class="orb" style="width:400px;height:400px;background:#4f46e5;top:-100px;left:-100px;"></div>
+      <div class="orb" style="width:500px;height:500px;background:#7c3aed;bottom:-150px;right:-150px;"></div>
+
       <div class="scene clip" id="s1" data-start="0" data-duration="4" data-track-index="0">
         <h1>Awesome World Models</h1>
-        <div class="sub">A curated list of world models</div>
+        <div class="sub">Papers · Models · Datasets · Benchmarks</div>
+        <div class="badge">A curated list for AI world simulation</div>
       </div>
-      <div class="scene clip" id="s2" data-start="4" data-duration="4" data-track-index="1">
-        <h2>Papers · Models · Datasets</h2>
-        <div class="sub">Benchmarks · Tools · Tutorials</div>
+
+      <div class="scene clip" id="s2" data-start="4" data-duration="6" data-track-index="1">
+        <h2>What's inside</h2>
+        <div class="grid">
+          <div class="card"><div class="icon">📄</div><div class="title">Papers</div><div class="desc">Foundational to 2026</div></div>
+          <div class="card"><div class="icon">🤖</div><div class="title">Models</div><div class="desc">Impls & frameworks</div></div>
+          <div class="card"><div class="icon">🗂️</div><div class="title">Datasets</div><div class="desc">Video, 3D, driving</div></div>
+          <div class="card"><div class="icon">📊</div><div class="title">Benchmarks</div><div class="desc">VBench, WorldSim</div></div>
+          <div class="card"><div class="icon">🛠️</div><div class="title">Tools</div><div class="desc">Simulators & libs</div></div>
+          <div class="card"><div class="icon">🎓</div><div class="title">Tutorials</div><div class="desc">Talks & guides</div></div>
+        </div>
       </div>
-      <div class="scene clip" id="s3" data-start="8" data-duration="4" data-track-index="2">
-        <h2>Video · 3D · Driving</h2>
-        <div class="sub">Robotics · Game · Interactive</div>
+
+      <div class="scene clip" id="s3" data-start="10" data-duration="4" data-track-index="2">
+        <h2>Domains covered</h2>
+        <div class="grid" style="grid-template-columns: repeat(4, 1fr); width: 1500px;">
+          <div class="card"><div class="icon">🎬</div><div class="title">Video</div></div>
+          <div class="card"><div class="icon">🧊</div><div class="title">3D</div></div>
+          <div class="card"><div class="icon">🚗</div><div class="title">Driving</div></div>
+          <div class="card"><div class="icon">🦾</div><div class="title">Robotics</div></div>
+        </div>
       </div>
-      <div class="scene clip" id="s4" data-start="12" data-duration="3" data-track-index="3">
+
+      <div class="scene clip" id="s4" data-start="14" data-duration="4" data-track-index="3">
         <h1>Explore &amp; Contribute</h1>
         <div class="pill">github.com/rajasekharponakala/awesome-world-models</div>
+        <div class="badge">PRs welcome</div>
       </div>
     </div>
     <script>
       const tl = gsap.timeline({ paused: true });
-      tl.fromTo("#s1", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.8 }, 0);
-      tl.to("#s1", { opacity: 0, duration: 0.6 }, 3.2);
-      tl.fromTo("#s2", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.8 }, 4);
-      tl.to("#s2", { opacity: 0, duration: 0.6 }, 7.2);
-      tl.fromTo("#s3", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.8 }, 8);
-      tl.to("#s3", { opacity: 0, duration: 0.6 }, 11.2);
-      tl.fromTo("#s4", { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 0.8 }, 12);
+      // orbs
+      tl.to(".orb", { x: 60, y: 40, duration: 18, ease: "sine.inOut", yoyo: true, repeat: -1 }, 0);
+      // scene 1
+      tl.fromTo("#s1", { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.9 }, 0);
+      tl.to("#s1", { opacity: 0, duration: 0.6 }, 3.3);
+      // scene 2
+      tl.fromTo("#s2", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 4);
+      tl.from("#s2 .card", { opacity: 0, y: 40, scale: 0.9, duration: 0.5, stagger: 0.08 }, 4.2);
+      tl.to("#s2", { opacity: 0, duration: 0.6 }, 9.3);
+      // scene 3
+      tl.fromTo("#s3", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 10);
+      tl.from("#s3 .card", { opacity: 0, y: 40, scale: 0.9, duration: 0.5, stagger: 0.1 }, 10.2);
+      tl.to("#s3", { opacity: 0, duration: 0.6 }, 13.3);
+      // scene 4
+      tl.fromTo("#s4", { opacity: 0, scale: 0.95 }, { opacity: 1, scale: 1, duration: 0.9 }, 14);
       window.__timelines = window.__timelines || {};
       window.__timelines["main"] = tl;
       tl.seek(0);
     </script>
   </body>
 </html>
+EOF
+echo done
