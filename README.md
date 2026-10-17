@@ -2,7 +2,7 @@
 
 ## See it in action
 
-[![Launch video preview](preview.gif)](brag.mp4)
+[![Launch video preview](preview.gif?v=2)](brag.mp4)
 
 *The [awesome list](README.md): curated world models across video, 3D, driving, and robotics. [Watch the full video with sound](brag.mp4).*
 
