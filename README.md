@@ -53,9 +53,9 @@ World models compress experience into a latent representation of how the world e
 
 ## Video World Models
 
-> Featured example: [Sora (OpenAI, 2024)](https://openai.com/sora) - Text-to-video world simulator.
+> Featured example: [Sora (OpenAI, 2024)](https://en.wikipedia.org/wiki/Sora_(text-to-video_model)) - Text-to-video world simulator.
 
-- [Sora (OpenAI, 2024)](https://openai.com/sora) - Text-to-video world simulator.
+- [Sora (OpenAI, 2024)](https://en.wikipedia.org/wiki/Sora_(text-to-video_model)) - Text-to-video world simulator.
 - [Genie (DeepMind, 2024)](https://arxiv.org/abs/2402.15391) - Generative interactive environment from video.
 - [Genie 2 (DeepMind, 2024)](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/) - Large-scale foundation world model.
 - [VideoPoet (Google, 2024)](https://arxiv.org/abs/2312.14125) - LLM for video generation.
