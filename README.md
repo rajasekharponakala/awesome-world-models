@@ -2,6 +2,8 @@
 
 ## Launch video
 
+<video src="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4" controls width="720" poster="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/preview.gif"></video>
+
 [![Launch video preview](preview.gif)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
 
 [Watch full video (brag.mp4)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
@@ -51,6 +53,8 @@ World models compress experience into a latent representation of how the world e
 
 ## Video World Models
 
+> Featured example: [Sora (OpenAI, 2024)](https://openai.com/sora) - Text-to-video world simulator.
+
 - [Sora (OpenAI, 2024)](https://openai.com/sora) - Text-to-video world simulator.
 - [Genie (DeepMind, 2024)](https://arxiv.org/abs/2402.15391) - Generative interactive environment from video.
 - [Genie 2 (DeepMind, 2024)](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/) - Large-scale foundation world model.
@@ -73,6 +77,8 @@ World models compress experience into a latent representation of how the world e
 
 ## 3D & Spatial World Models
 
+> Featured example: [GAIA-1 (Wayve, 2023)](https://arxiv.org/abs/2309.17080) - Generative world model for autonomous driving (video + 3D).
+
 - [GAIA-1 (Wayve, 2023)](https://arxiv.org/abs/2309.17080) - Generative world model for autonomous driving (video + 3D).
 - [GAIA-2 (Wayve, 2025)](https://wayve.ai/thinking/gaia-2/) - Scaling generative world models.
 - [WonderJourney (2024)](https://arxiv.org/abs/2310.03974) - 3D scene generation from a single image.
@@ -82,6 +88,8 @@ World models compress experience into a latent representation of how the world e
 - [Persistent Nature (2024)](https://arxiv.org/abs/2407.18896) - Scalable 3D world models.
 
 ## Driving World Models
+
+> Featured example: [DriveDreamer (2023)](https://arxiv.org/abs/2309.09777) - Driving world model for simulation.
 
 - [DriveDreamer (2023)](https://arxiv.org/abs/2309.09777) - Driving world model for simulation.
 - [DriveDreamer2 (2024)](https://arxiv.org/abs/2403.01415) - World model for driving video generation.
@@ -94,6 +102,8 @@ World models compress experience into a latent representation of how the world e
 - [UniAD (2023)](https://arxiv.org/abs/2212.10156) - Unified autonomous driving with task queries.
 
 ## Robotics & Embodied World Models
+
+> Featured example: [DayDreamer (2022)](https://arxiv.org/abs/2206.14176) - World models for real-world robot learning.
 
 - [DayDreamer (2022)](https://arxiv.org/abs/2206.14176) - World models for real-world robot learning.
 - [UniPi (2023)](https://arxiv.org/abs/2302.02153) - Universal policy via video prediction.
