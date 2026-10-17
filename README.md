@@ -6,6 +6,8 @@
 
 *The [awesome list](README.md): curated world models across video, 3D, driving, and robotics. [Watch the full video with sound](brag.mp4).*
 
+Full video: [brag.mp4](brag.mp4)
+
 > A curated list of papers, code, datasets, benchmarks, and resources on **world models** — learned simulators of environments that enable prediction, planning, and decision-making in AI.
 
 World models compress experience into a latent representation of how the world evolves, letting agents imagine futures, plan, and learn efficiently. This list covers foundational work through modern video, 3D, driving, and embodied world models.
