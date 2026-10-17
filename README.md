@@ -2,9 +2,9 @@
 
 ## Launch video
 
-<video src="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4" controls width="720"></video>
+[![Launch video preview](preview.gif)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
 
-[Download/watch brag.mp4](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
+[Watch full video (brag.mp4)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
 
 > A curated list of papers, code, datasets, benchmarks, and resources on **world models** — learned simulators of environments that enable prediction, planning, and decision-making in AI.
 
