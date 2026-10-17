@@ -2,7 +2,7 @@
 
 ## Launch video
 
-<video src="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4" controls width="720" poster="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/preview.gif"></video>
+<video src="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4" autoplay muted loop playsinline controls width="720" poster="https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/preview.gif"></video>
 
 [![Launch video preview](preview.gif)](https://raw.githubusercontent.com/rajasekharponakala/awesome-world-models/main/brag.mp4)
 
