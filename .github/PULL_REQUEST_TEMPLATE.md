@@ -1,6 +1,7 @@
 ## Summary
 
 ## Checklist
+
 - [ ] Entry follows format: `- [Title](URL) - Description.`
 - [ ] No duplicates
 - [ ] Link works

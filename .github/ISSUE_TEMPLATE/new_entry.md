@@ -5,7 +5,10 @@ title: "Add: <title>"
 labels: enhancement
 ---
 
-**Title:** 
-**URL:** 
-**Section:** 
-**Description (one sentence):** 
+**Title:**
+
+**URL:**
+
+**Section:**
+
+**Description (one sentence):**
