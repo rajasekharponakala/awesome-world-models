@@ -22,9 +22,13 @@ jobs:
           npm ci 2>/dev/null || true
           npx hyperframes check
           npx hyperframes render -o ../brag.mp4
+      - name: Generate preview GIF
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          ffmpeg -y -i brag.mp4 -vf "fps=10,scale=640:-1:flags=lanczos" -t 6 preview.gif
       - name: Commit rendered video
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add brag.mp4
+          git add brag.mp4 preview.gif
           if git diff --cached --quiet; then echo "No changes"; else git commit -m "chore: render launch video"; git push; fi
